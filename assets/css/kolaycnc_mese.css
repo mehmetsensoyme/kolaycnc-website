@@ -1019,14 +1019,16 @@ section.upcoming-meetings .categories .main-button-red a {
 
 .meeting-item .down-content h4 {
   font-size: 18px;
+  text-align: center;
   color: #1f272b;
   font-weight: 600;
-  display: inline-block;
+  display: block;
   margin-bottom: 15px;
 }
 
 .meeting-item .down-content p {
   margin-left: 50px;
+  text-align: left;
   color: #1f272b;
   font-size: 14px;
 }
