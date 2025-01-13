@@ -961,26 +961,26 @@ section.upcoming-meetings .categories .main-button-red a {
   text-align: center;
 }
 
-.meeting-item {
+.urun-item {
   margin-bottom: 30px;
 }
 
-.meeting-item .thumb {
+.urun-item .thumb {
   position: relative;
 }
 
-.meeting-item .thumb img {
+.urun-item .thumb img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
 
-.meeting-item .thumb .price {
+.urun-item .thumb .price {
   position: absolute;
   left: 20px;
   top: 20px;
 }
 
-.meeting-item .thumb .price span {
+.urun-item .thumb .price span {
   font-size: 16px;
   color: #1f272b;
   font-weight: 600;
@@ -989,35 +989,35 @@ section.upcoming-meetings .categories .main-button-red a {
   border-radius: 10px;
 }
 
-.meeting-item .down-content {
+.urun-item .down-content {
   background-color: #fff;
   padding: 30px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 
-.meeting-item .down-content .date {
+.urun-item .down-content .date {
   float: left;
   text-align: center;
   display: inline-block;
   margin-right: 20px;
 }
 
-.meeting-item .down-content .date h6 {
+.urun-item .down-content .date h6 {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
   color: #a12c2f;
 }
 
-.meeting-item .down-content .date span {
+.urun-item .down-content .date span {
   display: block;
   color: #1f272b;
   font-size: 22px;
   margin-top: 7px;
 }
 
-.meeting-item .down-content h4 {
+.urun-item .down-content h4 {
   font-size: 18px;
   text-align: center;
   color: #1f272b;
@@ -1026,9 +1026,8 @@ section.upcoming-meetings .categories .main-button-red a {
   margin-bottom: 15px;
 }
 
-.meeting-item .down-content p {
-  margin-left: 50px;
-  text-align: left;
+.urun-item .down-content p {
+  text-align: justify;
   color: #1f272b;
   font-size: 14px;
 }
