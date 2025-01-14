@@ -1,10 +1,4 @@
-/*
 
-TemplateMo 569 Edu Meeting
-
-https://templatemo.com/tm-569-edu-meeting
-
-*/
 
 /* ---------------------------------------------
 Table of contents
@@ -22,7 +16,8 @@ Table of contents
 11. search
 12. portfolio
 
---------------------------------------------- */
+--------------------------------------------- 
+*/
 /* 
 ---------------------------------------------
 font & reset css
@@ -118,11 +113,13 @@ img {
   overflow: hidden;
 }
 
+
 /* 
 ---------------------------------------------
 global styles
 --------------------------------------------- 
 */
+
 html,
 body {
   background: #fff;
@@ -207,8 +204,8 @@ header
 */
 
 .logo img {
-    max-width: 20%;  /* Görselin container'ı içinde orantılı şekilde genişlemesini sağlar */
-    height: auto;     /* Yüksekliği, genişliğe orantılı olarak ayarlar */
+    max-width: 20%;
+    height: auto;
 }
 
 .header-area {
@@ -217,9 +214,9 @@ header
 
 .header-area .logo {
     position: absolute;
-    left: 50;               /* Logoyu sola yasla */
-    top: 50%;              /* Yükseklik olarak orta yap */
-    transform: translateY(-50%); /* Dikeyde tam ortalamak için */
+    left: 50;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
@@ -1031,7 +1028,6 @@ section.upcoming-meetings .categories .main-button-red a {
   font-size: 14px;
 }
 
-
 .index-item {
   margin-bottom: 30px;
 }
@@ -1786,6 +1782,7 @@ section.meetings-page .pagination ul li a:hover {
 	}
 }
 
+
 /* 
 ---------------------------------------------
 responsive
@@ -1920,6 +1917,7 @@ responsive
 
 }
 
+
 /* 
 ---------------------------------------------
 Custom
@@ -1927,14 +1925,14 @@ Custom
 */
 
 .image-container {
-  display: flex; /* Flexbox kullanmaya başlıyoruz */
-  justify-content: center; /* Yatayda ortalar */
-  align-items: center; /* Dikeyde ortalar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 38px;
-  height: 50; /* Yüksekliği tüm ekran boyutuna göre ayarlarız */
+  height: 50;
 }
 
 .scaled-image {
-  width: 75%; /* Görselin genişliğini ayarlıyoruz */
-  height: auto; /* Yüksekliği orantılı olarak ayarlıyoruz */
+  width: 75%;
+  height: auto;
 }

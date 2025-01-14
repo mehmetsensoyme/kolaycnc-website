@@ -313,21 +313,4 @@
             });
         }
     })
-
-	// JavaScript fonksiyonu ile tıklanma sonrası resim değişimi
-	function changeImage(newSrc) {
-    // İlk ve ikinci görseli seçiyoruz
-    var normalImage = document.querySelector('.normal-image');
-    var hoverImage = document.querySelector('.hover-image');
-    
-    // Normal görseli gizle
-    normalImage.style.opacity = '0';
-    // Hover görseli göster
-    hoverImage.style.opacity = '1';
-
-    // İlgili görseli değiştirmek için kaynak değiştiriyoruz
-    hoverImage.src = newSrc;
-	}
-
-
 })(window.jQuery);
