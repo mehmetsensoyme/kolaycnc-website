@@ -313,4 +313,41 @@
             });
         }
     })
+
+	function setCookie(name, value, days) {
+		let date = new Date();
+		date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+		let expires = "expires=" + date.toUTCString();
+		document.cookie = name + "=" + value + ";" + expires + ";path=/";
+	}
+
+	// Çerez okuma fonksiyonu
+	function getCookie(name) {
+		let decodedCookies = decodeURIComponent(document.cookie);
+		let cookiesArray = decodedCookies.split(';');
+		for (let i = 0; i < cookiesArray.length; i++) {
+			let cookie = cookiesArray[i].trim();
+			if (cookie.indexOf(name + "=") == 0) {
+				return cookie.substring(name.length + 1);
+			}
+		}
+		return "";
+	}
+
+	window.onload = function() {
+		if (!getCookie("cookieConsent")) {
+			document.getElementById("cookie-banner").style.display = "block";
+			}
+		};
+
+		document.getElementById("accept-btn").addEventListener("click", function() {
+			setCookie("cookieConsent", "accepted", 365);
+			document.getElementById("cookie-banner").style.display = "none";
+			});
+			
+			document.getElementById("decline-btn").addEventListener("click", function() {
+				setCookie("cookieConsent", "declined", 365);
+				document.getElementById("cookie-banner").style.display = "none";
+			});
+
 })(window.jQuery);
