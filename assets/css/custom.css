@@ -1,0 +1,40 @@
+#cookie-banner {
+    position: fixed;      /* Sabit konumda olacak */
+    bottom: 0;            /* Sayfanın alt kısmında olacak */
+    left: 0;              /* Sol kenara yaslanacak */
+    width: 100%;          /* Tam genişlikte olacak */
+    background: rgba(255, 255, 255, 0.514);  /* Koyu renkli arka plan */
+    color: rgb(255, 255, 255);        /* Beyaz metin rengi */
+    padding: 5px;        /* İç boşluk */
+    text-align: center;   /* Metin ortalanacak */
+    display: none;        /* Başlangıçta gizli olacak */
+    z-index: 1000;        /* Diğer içeriklerin önünde görünsün */
+}
+
+#cookie-banner p {
+    display: inline;      /* Yazıyı satır içinde tutuyoruz */
+    margin-right: 10px;   /* Butonlarla arasına boşluk */
+}
+
+button {
+    background-color: #4CAF50;  /* Butonun yeşil rengi */
+    color: white;               /* Buton metni beyaz */
+    border: none;               /* Kenarlık yok */
+    padding: 5px 20px;         /* Butonun iç boşluğu */
+    margin-left: 15px;          /* Butonlar arasında boşluk */
+    cursor: pointer;           /* Fare imlecini işaretçi yapar */
+    border-radius: 5px;         /* Köşeleri yuvarlak */
+    font-size: 16px;            /* Yazı büyüklüğü */
+}
+
+button:hover {
+    background-color: #45a049;  /* Üzerine gelindiğinde renk değişir */
+}
+
+#decline-btn {
+    background-color: #f44336;  /* Reddedilen buton kırmızı olur */
+}
+
+#decline-btn:hover {
+    background-color: #d32f2f;  /* Üzerine gelindiğinde kırmızı koyulaşır */
+}
